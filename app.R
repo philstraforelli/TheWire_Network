@@ -27,7 +27,7 @@ ui <- fluidPage(
          hr(),
          actionButton("start", "Start"),
          actionButton("stop", "Stop"),
-         actionButton("reset", "Reset"),
+         actionButton("reset", "Reset time"),
          hr(),
          pickerInput(
            inputId = "characters",
@@ -35,7 +35,10 @@ ui <- fluidPage(
            choices = characters$name,
            multiple = TRUE,
            options = list(`live-search` = TRUE)),
-         actionButton("enter", "Enter")
+         actionButton("reset2", "Reset characters"),
+         hr(),
+         actionButton("enter", "Enter"),
+         actionButton("reset_all", "Reset all")
   ),
   column(7, 
          dataTableOutput("Table"),
@@ -43,9 +46,8 @@ ui <- fluidPage(
 )
 
 server <- function(input, output, session) {
-  store <- reactiveValues(timer_start = NULL, time_acc = 0, dat = dat,
-                          deletedRows = NULL,
-                          deletedRowIndices = list())
+  store <- reactiveValues(timer_start = NULL, time_acc = 0, dat = dat)
+  
   timer <- reactiveVal(0)
   
   active <- reactiveVal(FALSE)
@@ -81,6 +83,16 @@ server <- function(input, output, session) {
     store$timer_start <- NULL
     timer(0)
     store$time_acc <- 0
+  })
+  
+  observeEvent(input$reset2, {
+    reset("characters")
+  })
+  
+  observeEvent(input$reset_all, {
+    store$timer_start <- NULL
+    timer(0)
+    store$time_acc <- 0
     reset("characters")
   })
   
@@ -97,12 +109,15 @@ server <- function(input, output, session) {
                          time = as_hms(store$time_acc))
   })
   
-  output$Table <- renderDataTable(server = FALSE, {
-    datatable(store$dat, escape = FALSE, selection = "none")
+  output$Table <- renderDataTable({
+    datatable(store$dat)
   })
   
   observeEvent(input$save, {
-    saveRDS(store$dat, "data.RDS")
+    store$dat |> 
+      filter(time > 0) |> 
+      mutate(characters = str_replace_all(characters, "\\n", " ")) |> 
+      saveRDS("data.RDS")
   })
 }
 

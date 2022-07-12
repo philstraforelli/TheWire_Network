@@ -65,146 +65,147 @@ Ellis Carver,Police,63
 Ervin Burrell,Police,64
 Eton Ben-Eleazer,Street,65
 Fat-Face Rick,Street,66
-Frank Sobotka,Docks,67
-Frog,Street,68
-Fruit,Street,69
-Gary DiPasquale,Law,70
-George Glekas,Street,71
-Gerard,Street,72
-Gerry,Politics,73
-Ghost,Street,74
-Grace Sampson,School,75
-Grayson,Police,76
-Herbert De'Rodd Johnson,Street,77
-Howard Colvin,Police,78
-Hungry Man,Street,79
-Ilene Nathan,Law,80
-Ilona Petrovna,Street,81
-Jamal,Street,82
-James Asher,Police,83
-James McNulty,Police,84
-James Whiting,Paper,85
-Jay Landsman,Police,86
-Jay Spry,Paper,87
-Jeffrey Price,Paper,88
-Jennifer Carcetti,Civilian,89
-Joan Sobotka,Civilian,90
-John Bailey,Street,91
-John Spamanto,Docks,92
-Johnny Weeks,Street,93
-Justin,Street,94
-Kenard,Street,95
-Kenneth Dozerman,Police,96
-Kevin Johnston,Street,97
-Kevin Reynolds,Police,98
-Kimmy,Street,99
-Kintel Williamson,Street,100
-Kristos Koutris,Police,101
-La La,Docks,102
-Laetitia,School,103
-Lamar,Street,104
-Lambert,School,105
-Leander Sydnor,Police,106
-Leech,Street,107
-Lester Freamon,Police,108
-Lex,Street,109
-Little Kevin,Street,110
-Lloyd Garrick,Police,111
-Louis Sobotka,Civilian,112
-Marcia Donnelly,School,113
-Marla Daniels,Politics,114
-Marlo Stanfield,Street,115
-Marvin Browning,Street,116
-Marvin Taylor,Police,117
-Maui,Docks,118
-Maurice Levy,Law,119
-Michael Crutchfield,Police,120
-Michael Fletcher,Paper,121
-Michael Lee,School,122
-Michael McNulty,Civilian,123
-Michael Santangelo,Police,124
-Michael Steintorf,Politics,125
-Miss Duquette,School,126
-Monk Metcalf,Street,127
-Namond Brice,School,128
-Nathaniel Coxson,Docks,129
-Nerese Campbell,Politics,130
-New Charles,Docks,131
-Nickolas Sobotka,Docks,132
-Norman Wilson,Politics,133
-O-Dog,Street,134
-Odell Watkins,Politics,135
-Old Face Andre,Street,136
-Omar Little,Street,137
-Patrick Mahon,Police,138
-Perlene Scott,School,139
-Perry,Street,140
-Phil Boy,Street,141
-Poot,Street,142
-Prop Joe,Street,143
-R. Clayton Davis,Politics,144
-Rae,Civilian,145
-Randall Frazier,Police,146
-Randy Wagstaff,School,147
-Ray Cole,Police,148
-Raylene Lee,Street,149
-Raymond Foerster,Police,150
-Rebecca Corbett,Paper,151
-Reginald Ledett,Police,152
-Renaldo,Street,153
-Rhonda Pearlman,Law,154
-Richardson,Police,155
-Rico,Street,156
-Robert Brown,Police,157
-Robert Reed,Police,158
-Roger Twigg,Paper,159
-Roland Pryzbylewski,Police,160
-Roy Pelzman,Docks,161
-Rupert Bond,Law,162
-Sapper,Street,163
-Savino Bratton,Street,164
-Scott Templeton,Paper,165
-Sean McNulty,Civilian,166
-Sergei Malatov,Street,167
-Shakima Greggs,Police,168
-Shamrock,Street,169
-Shardene Innes,Civilian,170
-Sheperdson,School,171
-Sherrod,Street,172
-Slim Charles,Street,173
-Snoop,Street,174
-Spider,Street,175
-Spiros Vondopoulos,Street,176
-Squeak,Street,177
-Stanislaus Valchek,Police,178
-Stephen Demper,Law,179
-Sterling,Street,180
-Steven Luxenberg,Paper,181
-Stinkum,Street,182
-Stringer Bell,Street,183
-Tank,Street,184
-Terrance Fitzhugh,Police,185
-The Deacon,Civilian,186
-The Greek,Street,187
-Theresa D'Agostino,Politics,188
-Thomas Carcetti,Politics,189
-Thomas Hauk,Police,190
-Thomas Klebanow,Paper,191
-Thomas Pakusa,Docks,192
-Timothy Phelps,Paper,193
-Torret,Police,194
-Tosha Mitchell,Street,195
-Troy Wiggins,Police,196
-Vernon Holley,Police,197
-Vernon Motley,Docks,198
-Vinson,Street,199
-Wallace,Street,200
-Walon,Civilian,201
-Walter Cantrell,Police,202
-Wee-Bey,Street,203
-Wendell Blocker,Street,204
-White Mike,Street,205
-William Rawls,Police,206
-William Zorzi,Paper,207
-Zenobia Dawson,School,208
-Ziggy Sobotka,Docks,209
+Frank Barlow,Police,67
+Frank Sobotka,Docks,68
+Frog,Street,69
+Fruit,Street,70
+Gary DiPasquale,Law,71
+George Glekas,Street,72
+Gerard,Street,73
+Gerry,Politics,74
+Ghost,Street,75
+Grace Sampson,School,76
+Grayson,Police,77
+Herbert De'Rodd Johnson,Street,78
+Howard Colvin,Police,79
+Hungry Man,Street,80
+Ilene Nathan,Law,81
+Ilona Petrovna,Street,82
+Jamal,Street,83
+James Asher,Police,84
+James McNulty,Police,85
+James Whiting,Paper,86
+Jay Landsman,Police,87
+Jay Spry,Paper,88
+Jeffrey Price,Paper,89
+Jennifer Carcetti,Civilian,90
+Joan Sobotka,Civilian,91
+John Bailey,Street,92
+John Spamanto,Docks,93
+Johnny Weeks,Street,94
+Justin,Street,95
+Kenard,Street,96
+Kenneth Dozerman,Police,97
+Kevin Johnston,Street,98
+Kevin Reynolds,Police,99
+Kimmy,Street,100
+Kintel Williamson,Street,101
+Kristos Koutris,Police,102
+La La,Docks,103
+Laetitia,School,104
+Lamar,Street,105
+Lambert,School,106
+Leander Sydnor,Police,107
+Leech,Street,108
+Lester Freamon,Police,109
+Lex,Street,110
+Little Kevin,Street,111
+Lloyd Garrick,Police,112
+Louis Sobotka,Civilian,113
+Marcia Donnelly,School,114
+Marla Daniels,Politics,115
+Marlo Stanfield,Street,116
+Marvin Browning,Street,117
+Marvin Taylor,Police,118
+Maui,Docks,119
+Maurice Levy,Law,120
+Michael Crutchfield,Police,121
+Michael Fletcher,Paper,122
+Michael Lee,School,123
+Michael McNulty,Civilian,124
+Michael Santangelo,Police,125
+Michael Steintorf,Politics,126
+Miss Duquette,School,127
+Monk Metcalf,Street,128
+Namond Brice,School,129
+Nathaniel Coxson,Docks,130
+Nerese Campbell,Politics,131
+New Charles,Docks,132
+Nickolas Sobotka,Docks,133
+Norman Wilson,Politics,134
+O-Dog,Street,135
+Odell Watkins,Politics,136
+Old Face Andre,Street,137
+Omar Little,Street,138
+Patrick Mahon,Police,139
+Perlene Scott,School,140
+Perry,Street,141
+Phil Boy,Street,142
+Poot,Street,143
+Prop Joe,Street,144
+R. Clayton Davis,Politics,145
+Rae,Civilian,146
+Randall Frazier,Police,147
+Randy Wagstaff,School,148
+Ray Cole,Police,149
+Raylene Lee,Street,150
+Raymond Foerster,Police,151
+Rebecca Corbett,Paper,152
+Reginald Ledett,Police,153
+Renaldo,Street,154
+Rhonda Pearlman,Law,155
+Richardson,Police,156
+Rico,Street,157
+Robert Brown,Police,158
+Robert Reed,Police,159
+Roger Twigg,Paper,160
+Roland Pryzbylewski,Police,161
+Roy Pelzman,Docks,162
+Rupert Bond,Law,163
+Sapper,Street,164
+Savino Bratton,Street,165
+Scott Templeton,Paper,166
+Sean McNulty,Civilian,167
+Sergei Malatov,Street,168
+Shakima Greggs,Police,169
+Shamrock,Street,170
+Shardene Innes,Civilian,171
+Sheperdson,School,172
+Sherrod,Street,173
+Slim Charles,Street,174
+Snoop,Street,175
+Spider,Street,176
+Spiros Vondopoulos,Street,177
+Squeak,Street,178
+Stanislaus Valchek,Police,179
+Stephen Demper,Law,180
+Sterling,Street,181
+Steven Luxenberg,Paper,182
+Stinkum,Street,183
+Stringer Bell,Street,184
+Tank,Street,185
+Terrance Fitzhugh,Police,186
+The Deacon,Civilian,187
+The Greek,Street,188
+Theresa D'Agostino,Politics,189
+Thomas Carcetti,Politics,190
+Thomas Hauk,Police,191
+Thomas Klebanow,Paper,192
+Thomas Pakusa,Docks,193
+Timothy Phelps,Paper,194
+Torret,Police,195
+Tosha Mitchell,Street,196
+Troy Wiggins,Police,197
+Vernon Holley,Police,198
+Vernon Motley,Docks,199
+Vinson,Street,200
+Wallace,Street,201
+Walon,Civilian,202
+Walter Cantrell,Police,203
+Wee-Bey,Street,204
+Wendell Blocker,Street,205
+White Mike,Street,206
+William Rawls,Police,207
+William Zorzi,Paper,208
+Zenobia Dawson,School,209
+Ziggy Sobotka,Docks,210
