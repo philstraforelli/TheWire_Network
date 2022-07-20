@@ -24,6 +24,7 @@ chr_combs <- combn(characters$name, 2) |>
   rename(name1 = ...1, name2 = ...2) |> 
   left_join(total_char_time, by = c("name1" = "name")) |> 
   left_join(total_char_time, by = c("name2" = "name")) |> 
+  mutate(across(starts_with("time"), ~ replace_na(.x, hms::hms(0)))) |> 
   filter(time.x > 0, time.y > 0)
 
 get_screentime <- function(character1, character2) {
