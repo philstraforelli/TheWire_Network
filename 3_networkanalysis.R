@@ -66,7 +66,7 @@ net_tidy <- tbl_graph(nodes = nodes, edges = edges, directed = FALSE, node_key =
 
 ggraph(net_tidy, layout = "kk") + #graphopt or kk
   geom_edge_link(aes(width = times), alpha = 0.8, colour = "lightgrey") + 
-  geom_node_point(aes(size = total_time, colour = category)) +
+  geom_node_point(aes(size = total_time, colour = category), alpha = 0.6) +
   geom_node_text(aes(label = characters, colour = category), repel = TRUE, fontface = "bold", show.legend = FALSE) +
   scale_edge_width(range = c(0.1, 5)) +
   scale_size(range = c(1, 15)) +
