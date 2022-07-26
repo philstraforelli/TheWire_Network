@@ -2,10 +2,14 @@ library(tidyverse)
 library(ggraph)
 library(tidygraph)
 library(glue)
+library(magick)
+library(RColorBrewer)
+library(tinter)
 
 dat <- readRDS("data.RDS")
 
-characters <- read_csv("characters_data.csv")
+characters <- read_csv("characters_data.csv") |> 
+  mutate(category = fct_relevel(category, "Law", "Police", "Politician", "Addict", "Gang", "Stickup", "Civilian"))
 
 dat_clean <- dat |> 
   select(scene_no, characters, time) |> 
@@ -64,11 +68,29 @@ nodes <- total_char_time |>
 
 net_tidy <- tbl_graph(nodes = nodes, edges = edges, directed = FALSE, node_key = "id")
 
-ggraph(net_tidy, layout = "kk") + #graphopt or kk
-  geom_edge_link(aes(width = times), alpha = 0.8, colour = "lightgrey") + 
-  geom_node_point(aes(size = total_time, colour = category), alpha = 0.6) +
+nodes_colours <- brewer.pal(7, "Set1")
+nodes_colours[7] <- "#808080"
+nodes_colours[6] <- darken(nodes_colours[6], 0.2)
+names(nodes_colours) <- c("Addict", "Gang", "Stickup", "Law", "Police", "Politician", "Civilian")
+text_colours <- darken(nodes_colours, 0.5)
+
+img <- image_read("www/TheWire-Logo_CR.jpg")
+
+graph_s1 <- ggraph(net_tidy) + 
+  geom_edge_link(aes(width = times), alpha = 0.8, colour = "lightgrey", show.legend = FALSE) + 
+  geom_node_point(aes(size = total_time, fill = category), colour = "white", shape = 21) +
   geom_node_text(aes(label = characters, colour = category), repel = TRUE, fontface = "bold", show.legend = FALSE) +
-  scale_edge_width(range = c(0.1, 5)) +
+  scale_edge_width(range = c(0.001, 5)) +
   scale_size(range = c(1, 15)) +
-  labs(edge_width = "times") +
-  theme_graph()
+  scale_fill_manual(values = nodes_colours) +
+  scale_colour_manual(values = text_colours) +
+  labs(fill = "", colour = "", subtitle = "Season One") +
+  guides(size = "none", fill = guide_legend(nrow = 1, override.aes = list(size = 10))) +
+  theme_graph() + 
+  theme(legend.position = "bottom",
+        legend.text = element_text(size = 14)) +
+  annotation_raster(img,
+                    xmin = -2, xmax = -0,
+                    ymin = -2.75, ymax = -1.75)
+
+ggsave("season1.png", graph_s1, device = "png", dpi = 450, width = 13, height = 10, units = "in", scale = 1.3)

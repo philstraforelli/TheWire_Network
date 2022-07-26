@@ -3,11 +3,11 @@ Aaron Castor,Police,1
 Aimee,Civilian,2
 Albert Stokes,School,3
 Alma Gutierrez,Paper,4
-Amanda Reese,School,5
-Andy Krawczyk,Politics,6
+Amanda Reese,Police,5
+Andy Krawczyk,Politician,6
 Anna Jeffries,Civilian,7
 Anthony Colicchio,Police,8
-Anthony Gray,Politics,9
+Anthony Gray,Politician,9
 Augustus Haynes,Paper,10
 Augustus Polk,Police,11
 Avon Barksdale,Gang,12
@@ -35,16 +35,16 @@ Chess,Docks,33
 Chiquan,School,34
 Chris Partlow,Gang,35
 Christeson,Police,36
-Clarence Royce,Politics,37
+Clarence Royce,Politician,37
 Claude Diggins,Police,38
 Claudell Withers,School,39
 Cleary,Police,40
-Coleman Parker,Politics,41
+Coleman Parker,Politician,41
 Country,Gang,42
 Crystal Judkins,School,43
 Cutty Wise,Gang,44
 D'Angelo Barksdale,Gang,45
-Damien Lavelle Price,Politics,46
+Damien Lavelle Price,Politician,46
 Daniel Phelan,Law,47
 Dante,Stickup,48
 Darnell Tyson,School,49
@@ -73,7 +73,7 @@ Fruit,Gang,71
 Gary DiPasquale,Law,72
 George Glekas,Gang,73
 Gerard,Gang,74
-Gerry,Politics,75
+Gerry,Politician,75
 Ghost,Gang,76
 Grace Sampson,School,77
 Grayson,Police,78
@@ -114,7 +114,7 @@ Little Man,Gang,112
 Lloyd Garrick,Police,113
 Louis Sobotka,Civilian,114
 Marcia Donnelly,School,115
-Marla Daniels,Politics,116
+Marla Daniels,Politician,116
 Marlo Stanfield,Gang,117
 Marvin Browning,Gang,118
 Marvin Taylor,Police,119
@@ -125,18 +125,18 @@ Michael Fletcher,Paper,123
 Michael Lee,School,124
 Michael McNulty,Civilian,125
 Michael Santangelo,Police,126
-Michael Steintorf,Politics,127
+Michael Steintorf,Politician,127
 Miss Duquette,School,128
 Monk Metcalf,Gang,129
 Nadiva Bryant,Police,130
 Namond Brice,School,131
 Nathaniel Coxson,Docks,132
-Nerese Campbell,Politics,133
+Nerese Campbell,Politician,133
 New Charles,Docks,134
 Nickolas Sobotka,Docks,135
-Norman Wilson,Politics,136
+Norman Wilson,Politician,136
 O-Dog,Gang,137
-Odell Watkins,Politics,138
+Odell Watkins,Politician,138
 Old Face Andre,Gang,139
 Omar Little,Stickup,140
 Patrick Mahon,Police,141
@@ -144,7 +144,7 @@ Perlene Scott,School,142
 Phil Boy,Gang,143
 Poot,Gang,144
 Prop Joe,Gang,145
-R. Clayton Davis,Politics,146
+R. Clayton Davis,Politician,146
 Rae,Civilian,147
 Randall Frazier,Police,148
 Randy Wagstaff,School,149
@@ -180,33 +180,32 @@ Spiros Vondopoulos,Gang,178
 Squeak,Civilian,179
 Stanislaus Valchek,Police,180
 Stephen Demper,Law,181
-Stephen Demper,Law,182
-Steven Luxenberg,Paper,183
-Stinkum,Gang,184
-Stringer Bell,Gang,185
-Tank,Gang,186
-Terrance Fitzhugh,Police,187
-The Deacon,Civilian,188
-The Greek,Gang,189
-Theresa D'Agostino,Politics,190
-Thomas Carcetti,Politics,191
-Thomas Hauk,Police,192
-Thomas Klebanow,Paper,193
-Thomas Pakusa,Docks,194
-Timothy Phelps,Paper,195
-Torret,Police,196
-Tosha Mitchell,Stickup,197
-Troy Wiggins,Police,198
-Vernon Holley,Police,199
-Vernon Motley,Docks,200
-Vinson,Gang,201
-Wallace,Gang,202
-Walon,Civilian,203
-Walter Cantrell,Police,204
-Wee-Bey,Gang,205
-Wendell Blocker,Gang,206
-White Mike,Gang,207
-William Rawls,Police,208
-William Zorzi,Paper,209
-Zenobia Dawson,School,210
-Ziggy Sobotka,Docks,211
+Steven Luxenberg,Paper,182
+Stinkum,Gang,183
+Stringer Bell,Gang,184
+Tank,Gang,185
+Terrance Fitzhugh,Police,186
+The Deacon,Civilian,187
+The Greek,Gang,188
+Theresa D'Agostino,Politician,189
+Thomas Carcetti,Politician,190
+Thomas Hauk,Police,191
+Thomas Klebanow,Paper,192
+Thomas Pakusa,Docks,193
+Timothy Phelps,Paper,194
+Torret,Police,195
+Tosha Mitchell,Stickup,196
+Troy Wiggins,Police,197
+Vernon Holley,Police,198
+Vernon Motley,Docks,199
+Vinson,Gang,200
+Wallace,Gang,201
+Walon,Civilian,202
+Walter Cantrell,Police,203
+Wee-Bey,Gang,204
+Wendell Blocker,Gang,205
+White Mike,Gang,206
+William Rawls,Police,207
+William Zorzi,Paper,208
+Zenobia Dawson,School,209
+Ziggy Sobotka,Docks,210

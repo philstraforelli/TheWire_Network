@@ -1,0 +1,24 @@
+---
+title: "Explanation"
+output: html_document
+date: '2022-07-25'
+---
+
+The Wire came out about 20 years ago, and in my opinion remains the best show in television history. One of the elements of the show's success is in combining a multitude of characters and have them interact in complex ways.
+
+To celebrate its anniversary, I wanted to explore the connections between the characters via a network analysis graph. To do so, I re-watched season 1 of the show and recorded the amount of screentime each character had with each other over the course of the seaosn. In order to determine who should be counted in this analysis and who should not, I have set myself the following criteria:
+
+- A character must have at least two speaking scenes over the course of the show's five seasons.
+- A character must have a name.
+
+Rule #1 rules out, for example, Winona, the administrative assistant of the Police department's homicide unit, who is often seen in the background of scenes occurring at the unit's offices, but never has a speaking role.
+
+Rule #2 rules out Daniel Phelan's assistant, who had some speaking roles, but who was never given a name.
+
+In terms of counting characters screentime, I considered that characters who are not seen but actively speaking to someone in the scene on the phone count if we can hear their voices on the phone. However, characters caught on voice recordings being listened to by other characters on screen are not counted. If a character is killed, the character's onscreen time is counted if their body is shown in a scene with other characters. If a character is alone in a scene, it obviously doesn't provide further information in their relationship with others, but it counts towards their total screentime.
+
+Regarding the visualization, a network analysis represents the structure of the relationships between the characters. Important characters tend to be more central on the graph, while minor characters will be on the outskirts. The size of the dots (known as nodes) is relative to the character's total screentime. The width of the links between the characters (known as edges) is relative to the amount of screentime that those two characters have together over the course of the season. 
+
+While the relative position of the nodes may indicate a strong relationship between two characters, this is not necessarily the case. The data has a high dimensionality, and the algorithm attempts to reduce that to a two-dimensional space.
+
+Data collection was done by me. Visualization was done in R.
