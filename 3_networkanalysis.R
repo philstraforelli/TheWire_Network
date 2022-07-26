@@ -12,6 +12,7 @@ characters <- read_csv("characters_data.csv") |>
   mutate(category = fct_relevel(category, "Law", "Police", "Politician", "Addict", "Gang", "Stickup", "Civilian"))
 
 dat_clean <- dat |> 
+  filter(season == 1) |> 
   select(scene_no, characters, time) |> 
   mutate(characters = str_replace_all(characters, "\\\n", " ")) |> 
   separate_rows(characters, sep = ",")
