@@ -73,7 +73,7 @@ nodes_colours <- brewer.pal(7, "Set1")
 nodes_colours[8] <- "#808080"
 nodes_colours[6] <- darken(nodes_colours[6], 0.2)
 names(nodes_colours) <- c("Law", "Police", "Politician", "Docks", "Gang", "The Greek's Crew", "Stickup", "Civilian")
-# text_colours <- darken(nodes_colours, 0.5)
+text_colours <- darken(nodes_colours, 0.5)
 
 img <- image_read("www/TheWire-Logo_CR.jpg")
 
