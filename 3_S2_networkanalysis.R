@@ -70,10 +70,10 @@ nodes <- total_char_time |>
 net_tidy <- tbl_graph(nodes = nodes, edges = edges, directed = FALSE, node_key = "id")
 
 nodes_colours <- brewer.pal(7, "Set1")
-nodes_colours[7] <- "#808080"
+nodes_colours[8] <- "#808080"
 nodes_colours[6] <- darken(nodes_colours[6], 0.2)
-names(nodes_colours) <- c("Addict", "Gang", "Stickup", "Law", "Police", "Politician", "Civilian")
-text_colours <- darken(nodes_colours, 0.5)
+names(nodes_colours) <- c("Law", "Police", "Politician", "Docks", "Gang", "The Greek's Crew", "Stickup", "Civilian")
+# text_colours <- darken(nodes_colours, 0.5)
 
 img <- image_read("www/TheWire-Logo_CR.jpg")
 
