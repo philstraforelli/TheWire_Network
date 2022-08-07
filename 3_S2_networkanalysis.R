@@ -89,9 +89,9 @@ graph_s2 <- ggraph(net_tidy) +
   guides(size = "none", fill = guide_legend(nrow = 1, override.aes = list(size = 10))) +
   theme_graph() + 
   theme(legend.position = "bottom",
-        legend.text = element_text(size = 14)) +
-  annotation_raster(img,
-                    xmin = -2, xmax = -0,
-                    ymin = -2.75, ymax = -1.75)
+        legend.text = element_text(size = 14)) #+
+  # annotation_raster(img,
+  #                   xmin = -2, xmax = -0,
+  #                   ymin = -2.75, ymax = -1.75)
 
 ggsave("season2.png", graph_s1, device = "png", dpi = 450, width = 13, height = 10, units = "in", scale = 1.3)
