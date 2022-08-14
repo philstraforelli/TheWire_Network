@@ -9,13 +9,16 @@ library(tinter)
 dat <- readRDS("data.RDS")
 
 characters <- read_csv("characters_data.csv") |> 
-  mutate(category = fct_relevel(category, "Law", "Police", "Politician", "Docks", "Gang", "The Greek's Crew", "Stickup", "Civilian"))
+  mutate(category = if_else(name %in% c("Butchie", "White Mike", "Frog", "Prop Joe", "Cheese Wagstaff"), "Other Gang", category),
+         category = if_else(category == "Gang", "Barksdale Crew", category),
+         category = fct_relevel(category, "Law", "Police", "Politician", "Docks", "Barksdale Crew", "Other Gang", "The Greek's Crew", "Stickup", "Addict", "Civilian"))
 
 dat_clean <- dat |> 
   filter(season == 2) |> 
   select(scene_no, characters, time) |> 
   mutate(characters = str_replace_all(characters, "\\\n", " ")) |> 
-  separate_rows(characters, sep = ",")
+  separate_rows(characters, sep = ",") |> 
+  filter(characters != "")
 
 total_char_time <- dat_clean |> 
   group_by(characters) |> 
@@ -69,13 +72,15 @@ nodes <- total_char_time |>
 
 net_tidy <- tbl_graph(nodes = nodes, edges = edges, directed = FALSE, node_key = "id")
 
-nodes_colours <- brewer.pal(7, "Set1")
-nodes_colours[8] <- "#808080"
-nodes_colours[6] <- darken(nodes_colours[6], 0.2)
-names(nodes_colours) <- c("Law", "Police", "Politician", "Docks", "Gang", "The Greek's Crew", "Stickup", "Civilian")
+nodes_colours <- brewer.pal(9, "Set1")
+nodes_colours[9] <- darken(nodes_colours[6], 0.2)
+nodes_colours[6] <- darken(nodes_colours[5], 0.2)
+nodes_colours[10] <- "#808080"
+
+names(nodes_colours) <- c("Law", "Police", "Politician", "Docks", "Barksdale Crew", "Other Gang", "The Greek's Crew", "Stickup", "Addict", "Civilian")
 text_colours <- darken(nodes_colours, 0.5)
 
-img <- image_read("www/TheWire-Logo_CR.jpg")
+img <- image_read("www/TheWire-Logo_CR.png")
 
 graph_s2 <- ggraph(net_tidy) + 
   geom_edge_link(aes(width = times), alpha = 0.8, colour = "lightgrey", show.legend = FALSE) + 
@@ -89,9 +94,9 @@ graph_s2 <- ggraph(net_tidy) +
   guides(size = "none", fill = guide_legend(nrow = 1, override.aes = list(size = 10))) +
   theme_graph() + 
   theme(legend.position = "bottom",
-        legend.text = element_text(size = 14)) #+
-  # annotation_raster(img,
-  #                   xmin = -2, xmax = -0,
-  #                   ymin = -2.75, ymax = -1.75)
+        legend.text = element_text(size = 14)) +
+  annotation_raster(img,
+                    xmin = -4, xmax = -1.5,
+                    ymin = 2.2, ymax = 2.8)
 
-ggsave("season2.png", graph_s1, device = "png", dpi = 450, width = 13, height = 10, units = "in", scale = 1.3)
+ggsave("season2.png", graph_s2, device = "png", dpi = 450, width = 13, height = 10, units = "in", scale = 1.3)
