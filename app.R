@@ -110,7 +110,9 @@ server <- function(input, output, session) {
   })
   
   output$Table <- renderDataTable({
-    datatable(store$dat)
+    store$dat |> 
+      mutate(time = round_hms(time, secs = 1)) |> 
+      datatable()
   })
   
   observeEvent(input$save, {
