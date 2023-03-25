@@ -9,9 +9,12 @@ library(tinter)
 dat <- readRDS("data.RDS")
 
 characters <- read_csv("characters_data.csv") |> 
-  mutate(category = if_else(name %in% c("Butchie", "Prop Joe", "Cheese Wagstaff", "Marlo Stanfield", "Fruit", "Justin", "Jamal"), "Other Gang", category),
-         category = if_else(category == "Gang", "Barksdale Crew", category),
-         category = fct_relevel(category, "Law", "Police", "Politician", "Barksdale Crew", "Other Gang", "Stickup", "Addict", "Civilian"))
+  mutate(category = case_when(
+    name %in% c("Butchie", "Prop Joe", "Cheese Wagstaff") ~ "Other Gang",
+    name %in% c("Marlo Stanfield", "Fruit", "Justin", "Jamal") ~ "Marlo Crew",
+    category == "Gang" ~ "Barksdale Crew",
+    TRUE ~ category),
+    category = fct_relevel(category, "Law", "Police", "Politician", "Barksdale Crew", "Marlo Crew", "Other Gang", "Stickup", "Addict", "Civilian"))
 
 dat_clean <- dat |> 
   filter(season == 3) |> 
@@ -73,11 +76,11 @@ nodes <- total_char_time |>
 net_tidy <- tbl_graph(nodes = nodes, edges = edges, directed = FALSE, node_key = "id")
 
 nodes_colours <- brewer.pal(9, "Set1")
-nodes_colours[9] <- darken(nodes_colours[6], 0.2)
+nodes_colours[5] <- darken(nodes_colours[4], 0.2)
 nodes_colours[6] <- darken(nodes_colours[5], 0.2)
-nodes_colours[10] <- "#808080"
+nodes_colours[9] <- "#808080"
 
-names(nodes_colours) <- c("Law", "Police", "Politician", "Barksdale Crew", "Other Gang", "Stickup", "Addict", "Civilian")
+names(nodes_colours) <- c("Law", "Police", "Politician", "Barksdale Crew", "Marlo Crew", "Other Gang", "Stickup", "Addict", "Civilian")
 text_colours <- darken(nodes_colours, 0.5)
 
 img <- image_read("www/TheWire-Logo_CR.png")
