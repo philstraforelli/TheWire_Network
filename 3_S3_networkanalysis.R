@@ -99,7 +99,7 @@ graph_s3 <- ggraph(net_tidy) +
   theme(legend.position = "bottom",
         legend.text = element_text(size = 14)) +
   annotation_raster(img,
-                    xmin = -4, xmax = -1.5,
-                    ymin = 2.2, ymax = 2.8)
+                    xmin = 1, xmax = 4,
+                    ymin = 2.5, ymax = 3.1)
 
 ggsave("season3.png", graph_s3, device = "png", dpi = 450, width = 13, height = 10, units = "in", scale = 1.3)
