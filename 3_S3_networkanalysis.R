@@ -17,7 +17,7 @@ characters <- read_csv("characters_data.csv") |>
     category = fct_relevel(category, "Law", "Police", "Politician", "Barksdale Crew", "Marlo Crew", "Other Gang", "Stickup", "Addict", "Civilian"))
 
 dat_clean <- dat |> 
-  filter(season == 3) |> 
+  filter(season == 3) |>
   select(scene_no, characters, time) |> 
   mutate(characters = str_replace_all(characters, "\\\n", " ")) |> 
   separate_rows(characters, sep = ",") |> 
@@ -97,9 +97,8 @@ graph_s3 <- ggraph(net_tidy) +
   guides(size = "none", fill = guide_legend(nrow = 1, override.aes = list(size = 10))) +
   theme_graph() + 
   theme(legend.position = "bottom",
-        legend.text = element_text(size = 14)) +
-  annotation_raster(img,
-                    xmin = 1, xmax = 4,
-                    ymin = 2.5, ymax = 3.1)
+        legend.text = element_text(size = 14)) #+
+# annotation_raster(img, xmin = 1, xmax = 4,
+#                   ymin = 2.5, ymax = 3.1)
 
 ggsave("season3.png", graph_s3, device = "png", dpi = 450, width = 13, height = 10, units = "in", scale = 1.3)
