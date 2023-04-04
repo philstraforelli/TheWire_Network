@@ -53,171 +53,175 @@ Dante,Stickup,51
 Darnell Tyson,School,52
 David Parenti,School,53
 De'Londa Brice,Civilian,54
-Delores,Docks,55
-Dennis Mello,Police,56
-Devar Manigault,Civilian,57
-Devonne,Gang,58
-Donette,Civilian,59
-Donnie,Street,60
-Donut,School,61
-Duquan Weems,School,62
-Dwight Tilghman,Police,63
-E. Wise,Civilian,64
-Ed Norris,Police,65
-Edward Walker,Police,66
-Elena McNulty,Civilian,67
-Ellis Carver,Police,68
-Ervin Burrell,Police,69
-Eton Ben-Eleazer,The Greek's Crew,70
-Fat-Face Rick,Gang,71
-Frank Barlow,Police,72
-Frank Sobotka,Docks,73
-Frog,Gang,74
-Fruit,Gang,75
-Gary DiPasquale,Law,76
-George Glekas,The Greek's Crew,77
-Gerard,Gang,78
-Gerry,Politician,79
-Ghost,Gang,80
-Grace Sampson,School,81
-Grayson,Police,82
-Howard Colvin,Police,83
-Hungry Man,Gang,84
-Ilene Nathan,Law,85
-Ilona Petrovna,The Greek's Crew,86
-Jamal,Gang,87
-James Asher,Police,88
-James McNulty,Police,89
-James Whiting,Paper,90
-Jay Landsman,Police,91
-Jay Spry,Paper,92
-Jeffrey Price,Paper,93
-Jennifer Carcetti,Civilian,94
-Jerome Lewandowski,Civilian,95
-Joan Sobotka,Civilian,96
-John Bailey,Stickup,97
-John Spamanto,Docks,98
-Johnny Weeks,Addict,99
-Justin,Gang,100
-Kenard,Gang,101
-Kenneth Dozerman,Police,102
-Kevin Johnston,Gang,103
-Kevin Reynolds,Police,104
-Kimmy,Stickup,105
-Kintel Williamson,Gang,106
-Kristos Koutris,Police,107
-La La,Docks,108
-Laetitia,School,109
-Lamar,Gang,110
-Lambert,Police,111
-Leander Sydnor,Police,112
-Leech,Gang,113
-Lester Freamon,Police,114
-Lex,Gang,115
-Little Kevin,Gang,116
-Little Man,Gang,117
-Lloyd Garrick,Police,118
-Louis Sobotka,Civilian,119
-Marcia Donnelly,School,120
-Marla Daniels,Politician,121
-Marlo Stanfield,Gang,122
-Marvin Browning,Gang,123
-Marvin Taylor,Police,124
-Maui,Docks,125
-Maurice Levy,Law,126
-Michael Crutchfield,Police,127
-Michael Fletcher,Paper,128
-Michael Lee,School,129
-Michael McNulty,Civilian,130
-Michael Santangelo,Police,131
-Michael Steintorf,Politician,132
-Miss Duquette,School,133
-Monk Metcalf,Gang,134
-Nadiva Bryant,Police,135
-Namond Brice,School,136
-Nathaniel Coxson,Docks,137
-Nerese Campbell,Politician,138
-New Charles,Docks,139
-Nickolas Sobotka,Docks,140
-Norman Wilson,Politician,141
-O-Dog,Gang,142
-Odell Watkins,Politician,143
-Old Face Andre,Gang,144
-Omar Little,Stickup,145
-Patrick Mahon,Police,146
-Perlene Scott,School,147
-Phil Boy,Gang,148
-Poot,Gang,149
-Prop Joe,Gang,150
-Puddin,Gang,151
-R. Clayton Davis,Politician,152
-Rae,Civilian,153
-Randall Frazier,Police,154
-Randy Wagstaff,School,155
-Ray Cole,Police,156
-Raylene Lee,Civilian,157
-Raymond Foerster,Police,158
-Rebecca Corbett,Paper,159
-Reginald Ledett,Police,160
-Renaldo,Stickup,161
-Rhonda Pearlman,Law,162
-Richardson,Police,163
-Rico,Gang,164
-Ringo,Docks,165
-Robert Brown,Police,166
-Robert Norris,Police,167
-Robert Reed,Police,168
-Roger Twigg,Paper,169
-Roland Pryzbylewski,Police,170
-Roy Pelzman,Docks,171
-Rupert Bond,Law,172
-S.E. Rogers,Police,173
-Sam Choksey,Docks,174
-Sapper,Gang,175
-Savino Bratton,Gang,176
-Scott Templeton,Paper,177
-Sean McNulty,Civilian,178
-Sergei Malatov,The Greek's Crew,179
-Settles,Police,180
-Shakima Greggs,Police,181
-Shamrock,Gang,182
-Shardene Innes,Civilian,183
-Sheperdson,School,184
-Sherrod,Addict,185
-Slim Charles,Gang,186
-Snoop,Gang,187
-Spider,Gang,188
-Spiros Vondopoulos,The Greek's Crew,189
-Squeak,Civilian,190
-Stanislaus Valchek,Police,191
-Stephen Demper,Law,192
-Steven Luxenberg,Paper,193
-Stinkum,Gang,194
-Stringer Bell,Gang,195
-Tank,Gang,196
-Terrance Fitzhugh,Police,197
-The Deacon,Civilian,198
-The Greek,The Greek's Crew,199
-Theresa D'Agostino,Politician,200
-Thomas Carcetti,Politician,201
-Thomas Hauk,Police,202
-Thomas Klebanow,Paper,203
-Thomas Pakusa,Docks,204
-Timothy Phelps,Paper,205
-Torret,Police,206
-Tosha Mitchell,Stickup,207
-Tree,Gang,208
-Troy Wiggins,Police,209
-Vernon Holley,Police,210
-Vernon Motley,Docks,211
-Vinson,Gang,212
-Wallace,Gang,213
-Walon,Civilian,214
-Walter Cantrell,Police,215
-Wee-Bey,Gang,216
-Wendell Blocker,Gang,217
-White Mike,Gang,218
-William Rawls,Police,219
-William Zorzi,Paper,220
-Zenobia Dawson,School,221
-Ziggy Sobotka,Docks,222
+Dee Dee,Addict,55
+Delores,Docks,56
+Dennis Mello,Police,57
+Devar Manigault,Civilian,58
+Devonne,Gang,59
+Donette,Civilian,60
+Donnie,Street,61
+Donut,School,62
+Duquan Weems,School,63
+Dwight Tilghman,Police,64
+E. Wise,Civilian,65
+Ed Norris,Police,66
+Edward Walker,Police,67
+Elena McNulty,Civilian,68
+Ellis Carver,Police,69
+Ervin Burrell,Police,70
+Eton Ben-Eleazer,The Greek's Crew,71
+Fat-Face Rick,Gang,72
+Frank Barlow,Police,73
+Frank Sobotka,Docks,74
+Frog,Gang,75
+Fruit,Gang,76
+Gary DiPasquale,Law,77
+Gene,Civilian,78
+George Glekas,The Greek's Crew,79
+Gerard,Gang,80
+Gerry,Politician,81
+Ghost,Gang,82
+Grace Sampson,School,83
+Grayson,Police,84
+Howard Colvin,Police,85
+Hungry Man,Gang,86
+Ilene Nathan,Law,87
+Ilona Petrovna,The Greek's Crew,88
+Jamal,Gang,89
+James Asher,Police,90
+James McNulty,Police,91
+James Whiting,Paper,92
+Jay Landsman,Police,93
+Jay Spry,Paper,94
+Jeffrey Price,Paper,95
+Jennifer Carcetti,Civilian,96
+Jerome Lewandowski,Civilian,97
+Joan Sobotka,Civilian,98
+John Bailey,Stickup,99
+John Spamanto,Docks,100
+Johnny Weeks,Addict,101
+Justin,Gang,102
+Kenard,Gang,103
+Kenneth Dozerman,Police,104
+Kevin Johnston,Gang,105
+Kevin Reynolds,Police,106
+Kimmy,Stickup,107
+Kintel Williamson,Gang,108
+Kristos Koutris,Police,109
+La La,Docks,110
+Laetitia,School,111
+Lamar,Gang,112
+Lambert,Police,113
+Leander Sydnor,Police,114
+Leech,Gang,115
+Lester Freamon,Police,116
+Lex,Gang,117
+Little Kevin,Gang,118
+Little Man,Gang,119
+Lloyd Garrick,Police,120
+Louis Sobotka,Civilian,121
+Marcia Donnelly,School,122
+Marla Daniels,Politician,123
+Marlo Stanfield,Gang,124
+Marvin Browning,Gang,125
+Marvin Taylor,Police,126
+Maui,Docks,127
+Maurice Levy,Law,128
+Michael Crutchfield,Police,129
+Michael Fletcher,Paper,130
+Michael Lee,School,131
+Michael McNulty,Civilian,132
+Michael Santangelo,Police,133
+Michael Steintorf,Politician,134
+Miss Duquette,School,135
+Monk Metcalf,Gang,136
+Nadiva Bryant,Police,137
+Namond Brice,School,138
+Nathaniel Coxson,Docks,139
+Nerese Campbell,Politician,140
+New Charles,Docks,141
+Nickolas Sobotka,Docks,142
+Norman Wilson,Politician,143
+O-Dog,Gang,144
+Odell Watkins,Politician,145
+Old Face Andre,Gang,146
+Omar Little,Stickup,147
+Patrick Mahon,Police,148
+Perlene Scott,School,149
+Phil Boy,Gang,150
+Poot,Gang,151
+Prop Joe,Gang,152
+Puddin,Gang,153
+R. Clayton Davis,Politician,154
+Rae,Civilian,155
+Randall Frazier,Police,156
+Randy Wagstaff,School,157
+Ray Cole,Police,158
+Raylene Lee,Civilian,159
+Raymond Foerster,Police,160
+Rebecca Corbett,Paper,161
+Reginald Ledett,Police,162
+Renaldo,Stickup,163
+Rhonda Pearlman,Law,164
+Richardson,Police,165
+Rico,Gang,166
+Ringo,Docks,167
+Robert Brown,Police,168
+Robert Norris,Police,169
+Robert Reed,Police,170
+Robert Spore,Police,171
+Roger Twigg,Paper,172
+Roland Pryzbylewski,Police,173
+Roman,Civilian,174
+Roy Pelzman,Docks,175
+Rupert Bond,Law,176
+S.E. Rogers,Police,177
+Sam Choksey,Docks,178
+Sapper,Gang,179
+Savino Bratton,Gang,180
+Scott Templeton,Paper,181
+Sean McNulty,Civilian,182
+Sergei Malatov,The Greek's Crew,183
+Settles,Police,184
+Shakima Greggs,Police,185
+Shamrock,Gang,186
+Shardene Innes,Civilian,187
+Sheperdson,School,188
+Sherrod,Addict,189
+Slim Charles,Gang,190
+Snoop,Gang,191
+Spider,Gang,192
+Spiros Vondopoulos,The Greek's Crew,193
+Squeak,Civilian,194
+Stanislaus Valchek,Police,195
+Stephen Demper,Law,196
+Steven Luxenberg,Paper,197
+Stinkum,Gang,198
+Stringer Bell,Gang,199
+Tank,Gang,200
+Terrance Fitzhugh,Police,201
+The Deacon,Civilian,202
+The Greek,The Greek's Crew,203
+Theresa D'Agostino,Politician,204
+Thomas Carcetti,Politician,205
+Thomas Hauk,Police,206
+Thomas Klebanow,Paper,207
+Thomas Pakusa,Docks,208
+Timothy Phelps,Paper,209
+Torret,Police,210
+Tosha Mitchell,Stickup,211
+Tree,Gang,212
+Troy Wiggins,Police,213
+Vernon Holley,Police,214
+Vernon Motley,Docks,215
+Vinson,Gang,216
+Wallace,Gang,217
+Walon,Civilian,218
+Walter Cantrell,Police,219
+Wee-Bey,Gang,220
+Wendell Blocker,Gang,221
+White Mike,Gang,222
+William Rawls,Police,223
+William Zorzi,Paper,224
+Zenobia Dawson,School,225
+Ziggy Sobotka,Docks,226
