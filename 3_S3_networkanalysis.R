@@ -10,9 +10,10 @@ dat <- readRDS("data.RDS")
 
 characters <- read_csv("characters_data.csv") |> 
   mutate(category = case_when(
-    name %in% c("Butchie", "Prop Joe", "Cheese Wagstaff") ~ "Other Gang",
-    name %in% c("Marlo Stanfield", "Fruit", "Justin", "Jamal") ~ "Marlo Crew",
+    name %in% c("Prop Joe", "Cheese Wagstaff", "Tree", "Fat-Face Rick", "Phil Boy") ~ "Other Gang",
+    name %in% c("Marlo Stanfield", "Fruit", "Justin", "Jamal", "Snoop", "Chris Partlow") ~ "Marlo Crew",
     category == "Gang" ~ "Barksdale Crew",
+    name %in% c("Grace Sampson", "Jeffrey Price") ~ "Other",
     TRUE ~ category),
     category = fct_relevel(category, "Law", "Police", "Politician", "Barksdale Crew", "Marlo Crew", "Other Gang", "Stickup", "Addict", "Civilian"))
 
@@ -71,13 +72,15 @@ edges <- chr_comb_times |>
 nodes <- total_char_time |> 
   rename(characters = name) |> 
   filter(id %in% edges$from | id %in% edges$to) |> 
-  mutate(id = as.character(id), total_time = as.numeric(time))
+  mutate(id = as.character(id),
+         total_time = as.numeric(time),
+         characters = fct_reorder(characters, time))
 
 net_tidy <- tbl_graph(nodes = nodes, edges = edges, directed = FALSE, node_key = "id")
 
 nodes_colours <- brewer.pal(9, "Set1")
-nodes_colours[5] <- darken(nodes_colours[4], 0.2)
-nodes_colours[6] <- darken(nodes_colours[5], 0.2)
+nodes_colours[5] <- darken(nodes_colours[4], 0.4)
+nodes_colours[6] <- lighten(nodes_colours[4], 0.3)
 nodes_colours[9] <- "#808080"
 
 names(nodes_colours) <- c("Law", "Police", "Politician", "Barksdale Crew", "Marlo Crew", "Other Gang", "Stickup", "Addict", "Civilian")
@@ -93,12 +96,12 @@ graph_s3 <- ggraph(net_tidy) +
   scale_size(range = c(1, 15)) +
   scale_fill_manual(values = nodes_colours) +
   scale_colour_manual(values = text_colours) +
-  labs(fill = "", colour = "", subtitle = "Season Three") +
+  labs(fill = "", colour = "", subtitle = "Season Three", caption = "/u/AllezCannes") +
   guides(size = "none", fill = guide_legend(nrow = 1, override.aes = list(size = 10))) +
   theme_graph() + 
   theme(legend.position = "bottom",
-        legend.text = element_text(size = 14)) #+
-# annotation_raster(img, xmin = 1, xmax = 4,
-#                   ymin = 2.5, ymax = 3.1)
+        legend.text = element_text(size = 14)) +
+  annotation_raster(img, xmin = -2.7, xmax = 0,
+                    ymin = -3.3, ymax = -2.5)
 
 ggsave("season3.png", graph_s3, device = "png", dpi = 450, width = 13, height = 10, units = "in", scale = 1.3)

@@ -11,43 +11,43 @@ Anthony Colicchio,Police,9
 Anthony Gray,Politician,10
 Augustus Haynes,Paper,11
 Augustus Polk,Police,12
-Avon Barksdale,Gang,13
+Avon Barksdale,Barksdale Crew,13
 Beatrice Russell,Police,14
-Bernard,Gang,15
-Bird,Gang,16
+Bernard,Barksdale Crew,15
+Bird,Barksdale Crew,16
 Bobby Brown,Police,17
-Bodie,Gang,18
-Boo,Gang,19
+Bodie,Barksdale Crew,18
+Boo,Barksdale Crew,19
 Brandon Wright,Stickup,20
 Brian Baker,Police,21
-Brianna Barksdale,Gang,22
-Brother Mouzone,Gang,23
+Brianna Barksdale,Barksdale Crew,22
+Brother Mouzone,Barksdale Crew,23
 Bruce DiBiago,Politician,24
 Bruiser,Civilian,25
 Bubbles,Addict,26
 Bug,School,27
 Bunk Moreland,Police,28
-Butchie,Street,29
+Butchie,Other Gang,29
 Caroline Massey,Police,30
 Cedric Daniels,Police,31
 Charles Marimow,Police,32
-Cheese Wagstaff,Gang,33
-Cherry,Gang,34
+Cheese Wagstaff,Other Gang,33
+Cherry,Barksdale Crew,34
 Cheryl,Civilian,35
 Chess,Docks,36
-Chipper,Gang,37
+Chipper,Barksdale Crew,37
 Chiquan,School,38
-Chris Partlow,Gang,39
+Chris Partlow,Marlo Crew,39
 Christeson,Police,40
 Clarence Royce,Politician,41
 Claude Diggins,Police,42
 Claudell Withers,School,43
 Cleary,Police,44
 Coleman Parker,Politician,45
-Country,Gang,46
+Country,Barksdale Crew,46
 Crystal Judkins,School,47
-Cutty Wise,Gang,48
-D'Angelo Barksdale,Gang,49
+Dennis Wise,Barksdale Crew,48
+D'Angelo Barksdale,Barksdale Crew,49
 Damien Lavelle Price,Politician,50
 Daniel Phelan,Law,51
 Dante,Stickup,52
@@ -58,7 +58,7 @@ Dee Dee,Addict,56
 Delores,Docks,57
 Dennis Mello,Police,58
 Devar Manigault,Civilian,59
-Devonne,Gang,60
+Devonne,Barksdale Crew,60
 Donette,Civilian,61
 Donnie,Street,62
 Donut,School,63
@@ -71,24 +71,24 @@ Elena McNulty,Civilian,69
 Ellis Carver,Police,70
 Ervin Burrell,Police,71
 Eton Ben-Eleazer,The Greek's Crew,72
-Fat-Face Rick,Gang,73
+Fat-Face Rick,Other Gang,73
 Frank Barlow,Police,74
 Frank Sobotka,Docks,76
-Frog,Gang,77
-Fruit,Gang,78
+Frog,Barksdale Crew,77
+Fruit,Marlo Crew,78
 Gary DiPasquale,Law,79
 Gene,Civilian,80
 George Glekas,The Greek's Crew,81
-Gerard,Gang,82
+Gerard,Barksdale Crew,82
 Gerry,Politician,83
-Ghost,Gang,84
+Ghost,Barksdale Crew,84
 Grace Sampson,School,85
 Grayson,Police,86
 Howard Colvin,Police,87
-Hungry Man,Gang,88
+Hungry Man,Barksdale Crew,88
 Ilene Nathan,Law,89
 Ilona Petrovna,The Greek's Crew,90
-Jamal,Gang,91
+Jamal,Marlo Crew,91
 James Asher,Police,92
 James McNulty,Police,93
 James Whiting,Paper,94
@@ -101,29 +101,28 @@ Joan Sobotka,Civilian,100
 John Bailey,Stickup,101
 John Spamanto,Docks,102
 Johnny Weeks,Addict,103
-Justin,Gang,104
-Kenard,Gang,105
+Justin,Marlo Crew,104
+Kenard,Barksdale Crew,105
 Kenneth Dozerman,Police,106
-Kevin Johnston,Gang,107
+Kevin Johnston,Barksdale Crew,107
 Kevin Reynolds,Police,108
 Kimmy,Stickup,109
-Kintel Williamson,Gang,110
 Kristos Koutris,Police,111
 La La,Docks,112
 Laetitia,School,113
-Lamar,Gang,114
+Lamar,Barksdale Crew,114
 Leander Sydnor,Police,116
-Leech,Gang,117
+Leech,Barksdale Crew,117
 Lester Freamon,Police,118
-Lex,Gang,119
-Little Kevin,Gang,120
-Little Man,Gang,121
+Lex,Barksdale Crew,119
+Little Kevin,Barksdale Crew,120
+Little Man,Barksdale Crew,121
 Lloyd Garrick,Police,122
 Louis Sobotka,Civilian,123
 Marcia Donnelly,School,124
 Marla Daniels,Politician,125
-Marlo Stanfield,Gang,126
-Marvin Browning,Gang,127
+Marlo Stanfield,Marlo Crew,126
+Marvin Browning,Barksdale Crew,127
 Marvin Taylor,Police,128
 Maui,Docks,129
 Maurice Levy,Law,130
@@ -134,7 +133,7 @@ Michael McNulty,Civilian,134
 Michael Santangelo,Police,135
 Michael Steintorf,Politician,136
 Miss Duquette,School,137
-Monk Metcalf,Gang,138
+Monk Metcalf,Barksdale Crew,138
 Nadiva Bryant,Police,139
 Namond Brice,School,140
 Nathaniel Coxson,Docks,141
@@ -142,16 +141,16 @@ Nerese Campbell,Politician,142
 New Charles,Docks,143
 Nickolas Sobotka,Docks,144
 Norman Wilson,Politician,145
-O-Dog,Gang,146
+O-Dog,Barksdale Crew,146
 Odell Watkins,Politician,147
-Old Face Andre,Gang,148
+Old Face Andre,Barksdale Crew,148
 Omar Little,Stickup,149
 Patrick Mahon,Police,150
 Perlene Scott,School,151
-Phil Boy,Gang,152
-Poot,Gang,153
-Prop Joe,Gang,154
-Puddin,Gang,155
+Phil Boy,Other Gang,152
+Poot,Barksdale Crew,153
+Prop Joe,Other Gang,154
+Puddin,Barksdale Crew,155
 R. Clayton Davis,Politician,156
 Rae,Civilian,157
 Randall Frazier,Police,158
@@ -164,9 +163,8 @@ Reginald Ledett,Police,164
 Renaldo,Stickup,165
 Rhonda Pearlman,Law,166
 Richardson,Police,167
-Rico,Gang,168
+Rico,Barksdale Crew,168
 Ringo,Docks,169
-Robert Brown,Police,170
 Robert Norris,Police,171
 Robert Reed,Police,172
 Robert Spore,Police,173
@@ -176,28 +174,28 @@ Roman,Civilian,176
 Roy Pelzman,Docks,177
 Rupert Bond,Law,178
 Sam Choksey,Docks,179
-Sapper,Gang,180
-Savino Bratton,Gang,181
+Sapper,Barksdale Crew,180
+Savino Bratton,Barksdale Crew,181
 Scott Templeton,Paper,182
 Sean McNulty,Civilian,183
 Sergei Malatov,The Greek's Crew,184
 Settles,Police,185
 Shakima Greggs,Police,186
-Shamrock,Gang,187
+Shamrock,Barksdale Crew,187
 Shardene Innes,Civilian,188
 Sheperdson,School,189
 Sherrod,Addict,190
-Slim Charles,Gang,191
-Snoop,Gang,192
-Spider,Gang,193
+Slim Charles,Barksdale Crew,191
+Snoop,Marlo Crew,192
+Spider,Barksdale Crew,193
 Spiros Vondopoulos,The Greek's Crew,194
-Squeak,Gang,195
+Squeak,Barksdale Crew,195
 Stanislaus Valchek,Police,196
 Stephen Demper,Law,197
 Steven Luxenberg,Paper,198
-Stinkum,Gang,199
-Stringer Bell,Gang,200
-Tank,Gang,201
+Stinkum,Barksdale Crew,199
+Stringer Bell,Barksdale Crew,200
+Tank,Barksdale Crew,201
 Terrance Fitzhugh,Police,202
 The Deacon,Civilian,203
 The Greek,The Greek's Crew,204
@@ -209,17 +207,17 @@ Thomas Pakusa,Docks,209
 Timothy Phelps,Paper,210
 Torret,Police,211
 Tosha Mitchell,Stickup,212
-Tree,Gang,213
+Tree,Other Gang,213
 Troy Wiggins,Police,214
 Vernon Holley,Police,215
 Vernon Motley,Docks,216
-Vinson,Gang,217
-Wallace,Gang,218
+Vinson,Barksdale Crew,217
+Wallace,Barksdale Crew,218
 Walon,Civilian,219
 Walter Cantrell,Police,220
-Wee-Bey,Gang,221
-Wendell Blocker,Gang,222
-White Mike,Gang,223
+Wee-Bey,Barksdale Crew,221
+Wendell Blocker,Barksdale Crew,222
+White Mike,Barksdale Crew,223
 William Rawls,Police,224
 William Zorzi,Paper,225
 Zenobia Dawson,School,226
