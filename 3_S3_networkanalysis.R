@@ -10,10 +10,10 @@ dat <- readRDS("data.RDS")
 
 characters <- read_csv("characters_data.csv") |> 
   mutate(category = case_when(
-    name %in% c("Prop Joe", "Cheese Wagstaff", "Tree", "Fat-Face Rick", "Phil Boy") ~ "Other Gang",
-    name %in% c("Marlo Stanfield", "Fruit", "Justin", "Jamal", "Snoop", "Chris Partlow") ~ "Marlo Crew",
+    name %in% c("Prop Joe", "Cheese Wagstaff", "Tree", "Fat-Face Rick", "Phil Boy", "Brother Mouzone", "Lamar") ~ "Other Gang",
+    name %in% c("Marlo Stanfield", "Fruit", "Justin", "Jamal", "Snoop", "Chris Partlow", "Vinson") ~ "Marlo Crew",
     category == "Gang" ~ "Barksdale Crew",
-    name %in% c("Grace Sampson", "Jeffrey Price") ~ "Other",
+    name %in% c("Grace Sampson", "Jeffrey Price") ~ "Civilian",
     TRUE ~ category),
     category = fct_relevel(category, "Law", "Police", "Politician", "Barksdale Crew", "Marlo Crew", "Other Gang", "Stickup", "Addict", "Civilian"))
 
