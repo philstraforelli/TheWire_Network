@@ -5,12 +5,7 @@ library(DT)
 library(shinyjs)
 library(hms)
 
-seasons_episodes <- tribble(~season, ~episodes,
-                            1, 13,
-                            2, 12,
-                            3, 12,
-                            4, 13,
-                            5, 10)
+seasons_episodes <- tibble(season = 1:5, episodes = c(13, 12, 12, 13, 10))
 
 characters <- read_csv("characters_data.csv")
 
