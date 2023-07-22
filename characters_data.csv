@@ -126,113 +126,114 @@ Lex,Barksdale Crew,124
 Little Kevin,Barksdale Crew,125
 Little Man,Barksdale Crew,126
 Lloyd Garrick,Police,127
-Louis Sobotka,Civilian,128
-Marcia Donnelly,School,129
-Marla Daniels,Politician,130
-Marlo Stanfield,Marlo Crew,131
-Marvin Browning,Barksdale Crew,132
-Marvin Taylor,Police,133
-Maui,Docks,134
-Maurice Levy,Law,135
-Michael Crutchfield,Police,136
-Michael Fletcher,Paper,137
-Michael Lee,School,138
-Michael McNulty,Civilian,139
-Michael Santangelo,Police,140
-Michael Steintorf,Politician,141
-Miss Duquette,School,142
-Miss Mason,School,143
-Monk Metcalf,Barksdale Crew,144
-Monnell,School,145
-Nadiva Bryant,Police,146
-Namond Brice,School,147
-Nathaniel Coxson,Docks,148
-Nerese Campbell,Politician,149
-New Charles,Docks,150
-Nickolas Sobotka,Docks,151
-Norman Wilson,Politician,152
-O-Dog,Barksdale Crew,153
-Odell Watkins,Politician,154
-Old Face Andre,Barksdale Crew,155
-Omar Little,Stickup,156
-Patrick Mahon,Police,157
-Paul,School,158
-Perlene Scott,School,159
-Phil Boy,Other Gang,160
-Poot,Barksdale Crew,161
-Prop Joe,Other Gang,162
-Puddin,Barksdale Crew,163
-Quanice,School,164
-R. Clayton Davis,Politician,165
-Rae,Civilian,166
-Randall Frazier,Police,167
-Randy Wagstaff,School,168
-Ray Cole,Police,169
-Raylene Lee,Civilian,170
-Raymond Foerster,Police,171
-Rebecca Corbett,Paper,172
-Reginald Ledett,Police,173
-Renaldo,Stickup,174
-Rhonda Pearlman,Law,175
-Richardson,Police,176
-Rico,Barksdale Crew,177
-Ringo,Docks,178
-Robert Norris,Police,179
-Robert Reed,Police,180
-Robert Spore,Police,181
-Roger Twigg,Paper,182
-Roland Pryzbylewski,Police,183
-Roman,Civilian,184
-Roy Pelzman,Docks,185
-Rupert Bond,Law,186
-Sam Choksey,Docks,187
-Sapper,Barksdale Crew,188
-Savino Bratton,Barksdale Crew,189
-Scott Templeton,Paper,190
-Sean McNulty,Civilian,191
-Sergei Malatov,The Greek's Crew,192
-Settles,Police,193
-Shakima Greggs,Police,194
-Shamrock,Barksdale Crew,195
-Shardene Innes,Civilian,196
-Sheperdson,School,197
-Sherrod,Addict,198
-Slim Charles,Barksdale Crew,199
-Snoop,Marlo Crew,200
-Spider,Barksdale Crew,201
-Spiros Vondopoulos,The Greek's Crew,202
-Squeak,Barksdale Crew,203
-Stanislaus Valchek,Police,204
-Stephen Demper,Law,205
-Steven Luxenberg,Paper,206
-Stinkum,Barksdale Crew,207
-Stringer Bell,Barksdale Crew,208
-Tank,Barksdale Crew,209
-Terrance Fitzhugh,Police,210
-The Deacon,Civilian,211
-The Greek,The Greek's Crew,212
-Theresa D'Agostino,Politician,213
-Thomas Carcetti,Politician,214
-Thomas Hauk,Police,215
-Thomas Klebanow,Paper,216
-Thomas Pakusa,Docks,217
-Tiff,School,218
-Timothy Phelps,Paper,219
-Torret,Police,220
-Tosha Mitchell,Stickup,221
-Tree,Other Gang,222
-Troy Wiggins,Police,223
-Vernon Holley,Police,224
-Vernon Motley,Docks,225
-Vinson,Barksdale Crew,226
-Wallace,Barksdale Crew,227
-Walon,Civilian,228
-Walter Cantrell,Police,229
-Wee-Bey Brice,Barksdale Crew,230
-Wendell Blocker,Barksdale Crew,231
-White Mike,Barksdale Crew,232
-William Rawls,Police,233
-William Zorzi,Paper,234
-Young Tony,Politician,235
-Zenobia Dawson,School,236
-Ziggy Sobotka,Docks,237
+Lolita Colvin,Civilian,128
+Louis Sobotka,Civilian,129
+Marcia Donnelly,School,130
+Marla Daniels,Politician,131
+Marlo Stanfield,Marlo Crew,132
+Marvin Browning,Barksdale Crew,133
+Marvin Taylor,Police,134
+Maui,Docks,135
+Maurice Levy,Law,136
+Michael Crutchfield,Police,137
+Michael Fletcher,Paper,138
+Michael Lee,School,139
+Michael McNulty,Civilian,140
+Michael Santangelo,Police,141
+Michael Steintorf,Politician,142
+Miss Duquette,School,143
+Miss Mason,School,144
+Monk Metcalf,Barksdale Crew,145
+Monnell,School,146
+Nadiva Bryant,Police,147
+Namond Brice,School,148
+Nathaniel Coxson,Docks,149
+Nerese Campbell,Politician,150
+New Charles,Docks,151
+Nickolas Sobotka,Docks,152
+Norman Wilson,Politician,153
+O-Dog,Barksdale Crew,154
+Odell Watkins,Politician,155
+Old Face Andre,Barksdale Crew,156
+Omar Little,Stickup,157
+Patrick Mahon,Police,158
+Paul,School,159
+Perlene Scott,School,160
+Phil Boy,Other Gang,161
+Poot,Barksdale Crew,162
+Prop Joe,Other Gang,163
+Puddin,Barksdale Crew,164
+Quanice,School,165
+R. Clayton Davis,Politician,166
+Rae,Civilian,167
+Randall Frazier,Police,168
+Randy Wagstaff,School,169
+Ray Cole,Police,170
+Raylene Lee,Civilian,171
+Raymond Foerster,Police,172
+Rebecca Corbett,Paper,173
+Reginald Ledett,Police,174
+Renaldo,Stickup,175
+Rhonda Pearlman,Law,176
+Richardson,Police,177
+Rico,Barksdale Crew,178
+Ringo,Docks,179
+Robert Norris,Police,180
+Robert Reed,Police,181
+Robert Spore,Police,182
+Roger Twigg,Paper,183
+Roland Pryzbylewski,Police,184
+Roman,Civilian,185
+Roy Pelzman,Docks,186
+Rupert Bond,Law,187
+Sam Choksey,Docks,188
+Sapper,Barksdale Crew,189
+Savino Bratton,Barksdale Crew,190
+Scott Templeton,Paper,191
+Sean McNulty,Civilian,192
+Sergei Malatov,The Greek's Crew,193
+Settles,Police,194
+Shakima Greggs,Police,195
+Shamrock,Barksdale Crew,196
+Shardene Innes,Civilian,197
+Sheperdson,School,198
+Sherrod,Addict,199
+Slim Charles,Barksdale Crew,200
+Snoop,Marlo Crew,201
+Spider,Barksdale Crew,202
+Spiros Vondopoulos,The Greek's Crew,203
+Squeak,Barksdale Crew,204
+Stanislaus Valchek,Police,205
+Stephen Demper,Law,206
+Steven Luxenberg,Paper,207
+Stinkum,Barksdale Crew,208
+Stringer Bell,Barksdale Crew,209
+Tank,Barksdale Crew,210
+Terrance Fitzhugh,Police,211
+The Deacon,Civilian,212
+The Greek,The Greek's Crew,213
+Theresa D'Agostino,Politician,214
+Thomas Carcetti,Politician,215
+Thomas Hauk,Police,216
+Thomas Klebanow,Paper,217
+Thomas Pakusa,Docks,218
+Tiff,School,219
+Timothy Phelps,Paper,220
+Torret,Police,221
+Tosha Mitchell,Stickup,222
+Tree,Other Gang,223
+Troy Wiggins,Police,224
+Vernon Holley,Police,225
+Vernon Motley,Docks,226
+Vinson,Barksdale Crew,227
+Wallace,Barksdale Crew,228
+Walon,Civilian,229
+Walter Cantrell,Police,230
+Wee-Bey Brice,Barksdale Crew,231
+Wendell Blocker,Barksdale Crew,232
+White Mike,Barksdale Crew,233
+William Rawls,Police,234
+William Zorzi,Paper,235
+Young Tony,Politician,236
+Zenobia Dawson,School,237
+Ziggy Sobotka,Docks,238
