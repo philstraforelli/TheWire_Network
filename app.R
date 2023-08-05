@@ -15,7 +15,7 @@ ui <- fluidPage(
   useShinyjs(),
   column(5,
          fluidRow(img(src = 'TheWire-Logo_CR.jpg', align = "left", height = "50%", width = "50%")),
-         pickerInput("season", "Season", choices = 1:5, selected = 4),
+         pickerInput("season", "Season", choices = 1:5, selected = 5),
          uiOutput("episode_ui"),
          hr(),
          textOutput("timer"),
